@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:  border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+  background-color: #F6F6F9;
+  height: 100%;
+}
+
+.sidebar{
+  width: 30%;
+  height: 100%;
+  background-color: #dddddd;
+}
+
+.form-container-login{
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: flex;
+  max-width: 1100px;
+}
+
+.logo-chamada-login{
+  width: 40%;
+}
+
+.form-login{
+  width: 60%;
+  background-color: #fff;
+  padding: 30px;
+  max-width: 500px;
+}
+
+.form-login input{
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  box-shadow: 0px 3px 1px #D3D8E067;
+  border: 1px solid #EBEBEB;
+  margin: 10px 0;
+}
+
+.form-login .login{
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  cursor: pointer;
+  background: #444294 0% 0% padding-box;
+  box-shadow: 0px 3px 1px #2B2962;
+  border-radius: 10px;
+}
+
+.form-login a{
+  border: 2px solid #444294;
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #444294;
+  margin-top: 10px;
+}
